@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bcd3073a-cdaf-4aa8-80bf-aaa322fbeaf8" name="jclchat.com" url="http://jclchat.com:9980/chat">
+        <fileTransfer host="jclchat.com" port="22" privateKey="$USER_HOME$/.ssh/cassie_rsa" rootFolder="/home/cenicol" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

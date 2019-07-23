@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="poco_chat" targetName="chat" />
+      <config projectName="poco_chat" targetName="PServer" />
+    </generated>
+  </component>
+  <component name="CMakeSettings" AUTO_RELOAD="true">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7a92d8ae-a42d-4dea-b730-41d279287b4f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/p-chat.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deploy.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/include/PServer/ChatRequestHandler.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/include/PServer/ChatRequestHandlerFactory.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/include/PServer/DebugRequestHandler.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/include/PServer/HTMLPage.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/include/PServer/HTTPChatServer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/include/PServer/IndexPage.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/include/PServer/IndexRequestHandler.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/include/PServer/PocoForwards.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/src/ChatRequestHandler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/src/ChatRequestHandlerFactory.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/src/DebugRequestHandler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/src/HTMLPage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/src/HTTPChatServer.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/src/IndexPage.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PServer/src/IndexRequestHandler.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/src/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PServer/src/ChatRequestHandlerFactory.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-27">
+              <caret line="28" column="11" selection-start-line="28" selection-end-line="29" />
+              <folding>
+                <element signature="e#727#775#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PServer/src/IndexRequestHandler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+              <folding>
+                <element signature="e#41#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/IndexRequestHandler.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="101" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="101" />
+              <folding>
+                <element signature="e#126#166#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PServer/src/DebugRequestHandler.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+              <folding>
+                <element signature="e#41#83#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/DebugRequestHandler.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="111" selection-start-line="17" selection-start-column="111" selection-end-line="17" selection-end-column="111" />
+              <folding>
+                <element signature="e#125#165#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PServer/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="165">
+                <caret line="11" selection-start-line="11" selection-end-line="11" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/HTMLPage.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="104" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="104" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PServer/src/IndexPage.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="220">
+              <caret line="51" column="94" selection-start-line="51" selection-start-column="94" selection-end-line="51" selection-end-column="94" />
+              <folding>
+                <element signature="e#41#65#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="330">
+                <caret line="22" selection-start-line="22" selection-end-line="22" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/IndexPage.hpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>LIBRARIES</find>
+      <find>Boost</find>
+      <find>HTTPTimeServer</find>
+      <find>format</find>
+      <find>pFactory</find>
+      <find>request</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>INCLUDES</replace>
+      <replace>Poco</replace>
+      <replace>HTTPChatServer</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/deploy.sh" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/PServer/src/IndexRequestHandler.hpp" />
+        <option value="$PROJECT_DIR$/src/PServer/include/PServer/PocoForwards.hpp" />
+        <option value="$PROJECT_DIR$/src/PServer/include/PServer/ChatRequestHandlerFactory.hpp" />
+        <option value="$PROJECT_DIR$/src/PServer/src/HTTPChatServer.hpp" />
+        <option value="$PROJECT_DIR$/src/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/PServer/include/PServer/HTTPChatServer.hpp" />
+        <option value="$PROJECT_DIR$/src/app/src/main.cpp" />
+        <option value="$PROJECT_DIR$/src/PServer/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/app/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/src/PServer/src/HTTPChatServer.cpp" />
+        <option value="$PROJECT_DIR$/src/PServer/src/DebugRequestHandler.hpp" />
+        <option value="$PROJECT_DIR$/src/PServer/include/PServer/IndexRequestHandler.hpp" />
+        <option value="$PROJECT_DIR$/src/PServer/include/PServer/DebugRequestHandler.hpp" />
+        <option value="$PROJECT_DIR$/src/PServer/src/ChatRequestHandlerFactory.cpp" />
+        <option value="$PROJECT_DIR$/src/PServer/src/DebugRequestHandler.cpp" />
+        <option value="$PROJECT_DIR$/src/PServer/README.md" />
+        <option value="$PROJECT_DIR$/src/PServer/src/HTMLPage.cpp" />
+        <option value="$PROJECT_DIR$/src/PServer/src/HTMLPage.hpp" />
+        <option value="$PROJECT_DIR$/src/PServer/src/IndexPage.hpp" />
+        <option value="$PROJECT_DIR$/src/PServer/src/IndexRequestHandler.cpp" />
+        <option value="$PROJECT_DIR$/src/PServer/src/IndexPage.cpp" />
+        <option value="$PROJECT_DIR$/README.md" />
+      </list>
+    </option>
+  </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
+  <component name="OCResolveContextSettings">
+    <option name="configuration" value="0-PServer" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="111" />
+    <option name="width" value="1390" />
+    <option name="height" value="995" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="poco_chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="poco_chat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Build/poco/Net/src/HTTPServerConnection.cpp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="dynamic.analysis.tools" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/PServer/include/PServer" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.chat">
+    <configuration name="PServer" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="poco_chat" TARGET_NAME="PServer" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="chat" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="poco_chat" TARGET_NAME="chat" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="poco_chat" RUN_TARGET_NAME="chat">
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="$USER_HOME$/local/lib" />
+      </envs>
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.chat" />
+      <item itemvalue="CMake Application.PServer" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a92d8ae-a42d-4dea-b730-41d279287b4f" name="Default Changelist" comment="" />
+      <created>1563013822830</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563013822830</updated>
+      <workItem from="1563013823932" duration="20295000" />
+      <workItem from="1563563592586" duration="27737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="48032000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="111" y="0" width="1390" height="995" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25260028" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32918552" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.50106156" side_tool="true" weight="0.3479189" />
+      <window_info anchor="bottom" id="Database Changes" order="3" />
+      <window_info active="true" anchor="bottom" id="Messages" order="4" sideWeight="0.49893844" visible="true" weight="0.36764705" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" weight="0.32977587" />
+      <window_info anchor="bottom" id="Run" order="7" weight="0.3280543" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.37673426" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="CMake" order="10" sideWeight="0.49893844" weight="0.32870865" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" weight="0.32961783" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/src/PServer/src/IndexRequestHandler.cpp</url>
+          <line>14</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="25" column="3" lean-forward="true" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/src/ChatRequestHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/ChatRequestHandler.hpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/PocoForwards.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Build/poco/Net/include/Poco/Net/HTTPServerRequestImpl.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="111" selection-start-line="111" selection-end-line="111" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/Poco/Logger.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="672" selection-start-line="672" selection-end-line="672" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/Poco/Util/Application.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="435" selection-start-line="435" selection-end-line="435" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/src/HTTPChatServer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="58" column="83" lean-forward="true" selection-start-line="58" selection-start-column="83" selection-end-line="59" selection-end-column="36" />
+          <folding>
+            <element signature="e#41#86#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/local/include/Poco/Util/ServerApplication.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="295" selection-start-line="295" selection-end-line="295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/HTTPChatServer.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding>
+            <element signature="e#164#234#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/src/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/DebugRequestHandler.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="111" selection-start-line="17" selection-start-column="111" selection-end-line="17" selection-end-column="111" />
+          <folding>
+            <element signature="e#125#165#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/include/c++/7/backward/backward_warning.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/ChatRequestHandlerFactory.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/local/include/Poco/Net/HTTPServer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/local/include/Poco/Net/HTTPRequestHandlerFactory.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Build/poco/Net/src/HTTPServerConnection.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/src/DebugRequestHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding>
+            <element signature="e#41#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/src/ChatRequestHandlerFactory.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27">
+          <caret line="28" column="11" selection-start-line="28" selection-end-line="29" />
+          <folding>
+            <element signature="e#727#775#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" selection-start-line="11" selection-end-line="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/IndexRequestHandler.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="101" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="101" />
+          <folding>
+            <element signature="e#126#166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/src/HTMLPage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/HTMLPage.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="104" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/include/PServer/IndexPage.hpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/src/IndexRequestHandler.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
+          <folding>
+            <element signature="e#41#83#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/PServer/src/IndexPage.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="51" column="94" selection-start-line="51" selection-start-column="94" selection-end-line="51" selection-end-column="94" />
+          <folding>
+            <element signature="e#41#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="330">
+            <caret line="22" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
