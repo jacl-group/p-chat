@@ -15,7 +15,7 @@ sudo apt-get install openssl libssl-dev
 ```
   
 ```bash
-sudo apt install mysql-server mysql-client libmysqlcppconn-dev
+sudo apt install mysql-server mysql-client libmysqlclient-dev
 ```
 
 ## Troubleshooting
