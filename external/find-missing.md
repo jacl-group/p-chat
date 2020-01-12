@@ -1,7 +1,9 @@
-#How to find a missing file
+# How to find a missing file
 
 When trying to build the **poco** project, I got the message
-  -- Couldn't find MySQL or MariaDB
+```
+-- Couldn't find MySQL or MariaDB
+```
 
 Because it came from a cmake build, and knowing the way the **poco** build directory was put together, I knew that it was probably in the ```poco/cmake``` directory. So I looked there to find the file the message came from.
 
