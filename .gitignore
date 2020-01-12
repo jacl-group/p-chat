@@ -31,6 +31,9 @@
 *.out
 *.app
 
+# External libraries
+mstch/
+
 # cmake build directories
 build/
 cmake-build-debug/

@@ -9,7 +9,7 @@
 
 class IndexPage : public HTMLPage {
 public:
-    void write(Poco::Net::HTTPServerRequest& request, Poco::Net::HTTPServerResponse& response) override;
+    void write() override;
 };
 
 
