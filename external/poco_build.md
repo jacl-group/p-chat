@@ -11,14 +11,14 @@ cmake -DCMAKE_INSTALL_PREFIX=${HOME}/local ..
 
 
 ```bash
-  sudo apt-get install openssl libssl-dev
+sudo apt-get install openssl libssl-dev
 ```
   
 ```bash
-  sudo apt install mysql-server mysql-client libmysqlcppconn-dev
+sudo apt install mysql-server mysql-client libmysqlcppconn-dev
 ```
 
-##Troubleshooting
+## Troubleshooting
 
 when I ran cmake, the following message was given:
 
