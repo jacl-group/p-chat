@@ -1,5 +1,5 @@
-cmake_minimum_required(VERSION 3.10.0)
-project(poco_chat)
+#cmake_minimum_required(VERSION 3.10.0)
+#project(poco_chat)
 
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_INCLUDE_CURRENT_DIR ON)
@@ -17,7 +17,8 @@ set(THREADS_PREFER_PTHREAD_FLAG ON)
 find_package(Threads REQUIRED)
 
 # POCO library and components
-find_package(Poco 2.0.0 REQUIRED COMPONENTS Foundation Net Util
+#find_package(Poco 1.9.4 REQUIRED COMPONENTS Foundation Net Util Data DataSQLite SQL SQLMySQL
+find_package(Poco 1.9.4 REQUIRED COMPONENTS Foundation Net Util Data DataSQLite SQL SQLMySQL
         PATHS /home/cenicol/local
         )
 #add_library(poco INTERFACE IMPORTED)

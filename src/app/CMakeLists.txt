@@ -20,4 +20,6 @@ target_link_libraries(chat
         #Boost::log
         #Poco::Net
         Poco::Util
+        #Poco::Data
+        #Poco::SQL
         )

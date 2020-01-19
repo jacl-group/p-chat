@@ -1,5 +1,5 @@
 # Define library. Only source files here!
-project(PServer VERSION 0.1 LANGUAGES CXX)
+#project(PServer VERSION 0.1 LANGUAGES CXX)
 
 message("PROJECT_NAME: ${PROJECT_NAME}")
 
@@ -7,7 +7,8 @@ message("PROJECT_NAME: ${PROJECT_NAME}")
 file(GLOB SOURCES "src/*.cpp" "include/${PROJECT_NAME}/*.hpp")
 message("SOURCES: ${SOURCES}")
 
-add_library(PServer SHARED ${SOURCES} src/IndexRequestHandler.cpp)
+add_library(PServer SHARED ${SOURCES}
+        )
 
 # Define headers for this library. PUBLIC headers are used for
 # compiling the library, and will be added to consumers' build
@@ -22,4 +23,6 @@ target_include_directories(PServer PUBLIC
 # Define the libraries this project depends upon
 target_link_libraries(PServer
         Poco::Net
+        Poco::DataSQLite
+        Poco::SQL
         )
