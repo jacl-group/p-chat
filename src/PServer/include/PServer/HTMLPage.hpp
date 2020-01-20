@@ -9,11 +9,19 @@
 
 class HTMLPage {
 public:
-    HTMLPage();
+    HTMLPage(Poco::Net::HTTPServerRequest& request, Poco::Net::HTTPServerResponse& response);
 
     virtual ~HTMLPage();
 
-    virtual void write(Poco::Net::HTTPServerRequest& request, Poco::Net::HTTPServerResponse& response) = 0;
+    virtual void write(Poco::Net::HTMLForm* pForm= nullptr) = 0;
+
+    void operator()(Poco::Net::HTMLForm* pForm) {
+        write(pForm);
+    }
+
+protected:
+    Poco::Net::HTTPServerRequest& request_;
+    Poco::Net::HTTPServerResponse& response_;
 };
 
 

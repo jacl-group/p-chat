@@ -5,8 +5,13 @@
 #ifndef POCO_CHAT_VALIDATEPAGE_HPP
 #define POCO_CHAT_VALIDATEPAGE_HPP
 
+#include <include/PServer/HTMLPage.hpp>
 
-class ValidatePage {
+class ValidatePage : public HTMLPage {
+public:
+    ValidatePage(Poco::Net::HTTPServerRequest& request, Poco::Net::HTTPServerResponse& response);
+
+    void write(Poco::Net::HTMLForm* pForm= nullptr) override;
 
 };
 

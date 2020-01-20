@@ -86,8 +86,15 @@ private:
     std::string _format;
 };
 
-int main(int argc, char** argv)
-{
-    HTTPChatServer app;
-    return app.run(argc, argv);
+int main(int argc, char** argv) {
+    try {
+        HTTPChatServer app;
+        try {
+            return app.run(argc, argv);
+        } catch (...) {
+            cerr << "error running app" << endl;
+        }
+    } catch(...) {
+        cerr << "error instantiating app" << endl;
+    }
 }

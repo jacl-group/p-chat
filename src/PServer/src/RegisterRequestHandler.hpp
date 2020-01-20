@@ -5,9 +5,12 @@
 #ifndef POCO_CHAT_REGISTERREQUESTHANDLER_HPP
 #define POCO_CHAT_REGISTERREQUESTHANDLER_HPP
 
+#include <Poco/Net/HTTPRequestHandler.h>
 
-class RegisterRequestHandler {
+class RegisterRequestHandler : public Poco::Net::HTTPRequestHandler {
+public:
 
+    void handleRequest(Poco::Net::HTTPServerRequest& request, Poco::Net::HTTPServerResponse& response) override;
 };
 
 

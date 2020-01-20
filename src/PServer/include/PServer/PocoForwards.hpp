@@ -13,6 +13,8 @@ namespace Poco {
         class HTTPServerResponse;
 
         class HTTPRequestHandler;
+
+        class HTMLForm;
     }
 }
 

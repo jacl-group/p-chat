@@ -4,8 +4,8 @@
 
 #include "PServer/DebugRequestHandler.hpp"
 
-#include "Poco/Util/ServerApplication.h"
-#include "Poco/Net/HTTPServerRequest.h"
+#include <Poco/Util/ServerApplication.h>
+#include <Poco/Net/HTTPServerRequest.h>
 #include <Poco/Net/HTTPServerResponse.h>
 #include <Poco/Net/HTMLForm.h>
 #include "Poco/Timestamp.h"
@@ -58,6 +58,8 @@ void DebugRequestHandler::handleRequest(Poco::Net::HTTPServerRequest &request, P
 
     app.logger().information("Request from " + request.clientAddress().toString());
     app.logger().information("Request to " + request.serverAddress().toString());
+
+    ostr << "<p>URI: " << request.getURI() << "</p>";
 
     ostr << "<p>" << "Response Size: " << request.size() << "</p>";
     ostr << "<ul>";

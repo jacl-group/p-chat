@@ -5,8 +5,13 @@
 #ifndef POCO_CHAT_REGISTERPAGE_HPP
 #define POCO_CHAT_REGISTERPAGE_HPP
 
+#include <include/PServer/HTMLPage.hpp>
 
-class RegisterPage {
+class RegisterPage : public HTMLPage {
+public:
+    RegisterPage(Poco::Net::HTTPServerRequest& request, Poco::Net::HTTPServerResponse& response);
+
+    void write(Poco::Net::HTMLForm* pForm= nullptr) override;
 
 };
 

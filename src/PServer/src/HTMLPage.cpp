@@ -4,7 +4,9 @@
 
 #include "include/PServer/HTMLPage.hpp"
 
-HTMLPage::HTMLPage()
+HTMLPage::HTMLPage(Poco::Net::HTTPServerRequest& request, Poco::Net::HTTPServerResponse& response)
+: request_(request)
+, response_(response)
 {
 
 }

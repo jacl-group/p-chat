@@ -6,6 +6,8 @@
 #define POCO_CHAT_HTTPCHATSERVER_HPP
 
 #include <Poco/Util/ServerApplication.h>
+#include <Poco/Data/Session.h>
+#include <Poco/Data/SessionPool.h>
 
 #if 0
 namespace Poco {
@@ -34,13 +36,15 @@ namespace Poco {
 /// To test the TimeServer you can use any web browser (http://localhost:9980/).
 class HTTPChatServer : public Poco::Util::ServerApplication {
 public:
-    HTTPChatServer(): _helpRequested(false)
-    {
-    }
+    HTTPChatServer();
 
-    ~HTTPChatServer()
-    {
-    }
+    ~HTTPChatServer();
+
+    static HTTPChatServer& instance();
+
+    static Poco::Data::Session getPool();
+
+    static bool hasPool();
 
 protected:
     void initialize(Application& self);
@@ -53,10 +57,19 @@ protected:
 
     void displayHelp();
 
+    void handleHelp(const std::string& name, const std::string& value);
+
+    void handlePort(const std::string& name, const std::string& value);
+
     int main(const std::vector<std::string>& args);
 
 private:
+    void showKeys(const std::string& key);
+
     bool _helpRequested;
+    unsigned short _port;
+
+    static std::unique_ptr<Poco::Data::SessionPool> pPool_;
 };
 
 

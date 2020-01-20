@@ -15,9 +15,9 @@ class IndexRequestHandler : public Poco::Net::HTTPRequestHandler
 public:
     IndexRequestHandler();
 
+    virtual ~IndexRequestHandler();
+
     void handleRequest(Poco::Net::HTTPServerRequest& request, Poco::Net::HTTPServerResponse& response);
-
-
 };
 
 
